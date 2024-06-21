@@ -1,0 +1,45 @@
+@import './colors.scss';
+
+:root {
+    // Font, line-height, and color for body text, headings, and more.
+    --text-color: #{$dark-purple};
+    --text-active-color: #{$white};
+    --text-active-color-two: #{$dark-purple};
+    --text-inactive-color: #{$gray-purple};
+    --text-placeholder-color: #{$white};
+
+    --font-weight-extrabold: 800;
+    --font-weight-bold: 700;
+    --font-weight-semibold: 600;
+    --font-weight-medium: 500;
+    --font-weight-regular: 400;
+
+    --font-size: 14px;
+    --font-size-xs: 12px;
+    --font-size-md: 16px;
+    --font-size-lg: 18px;
+    --font-size-xl: 20px;
+    --font-size-extra-xl: 24px;
+    --font-size-xxl: 36px;
+    --font-size-extra-xxl: 40px;
+
+    --line-height: 17px;
+    --line-height-xs: 14px;
+    --line-height-md: 19px;
+    --line-height-lg: 22px;
+    --line-height-xl: 24px;
+    --line-height-extra-xl: 30px;
+    --line-height-xxl: 43px;
+    --line-height-extra-xxl: 48px;
+
+    --font-family: 'Gotham Pro', 'Avenir', Helvetica, Arial, sans-serif;
+
+    // background
+    --bg-color: #{$light-pink};
+    --bg-secondary: #{$purple};
+    --bg-third: #{$dark-purple};
+    --bg-btn: #{$pink};
+
+    // input
+    --input-active-border: 1px solid #{$pink};
+}
